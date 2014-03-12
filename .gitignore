@@ -19,3 +19,7 @@ html-report/
 build/
 
 npm-debug.log
+
+testem-example/coverage/
+testem-example/instrumented/
+testem-example/coverage.json
