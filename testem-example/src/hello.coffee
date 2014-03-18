@@ -1,5 +1,5 @@
-hello ->
+hello = ->
   return 'hello'
 
-deadCode ->
+deadCode = ->
   console.log 'Run me!'
