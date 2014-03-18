@@ -17,13 +17,6 @@ Testem.on('all-test-results', function(results){
 <!-- Replace line below with hello.js to test that javascript still works -->
 <script src="instrumented/hello.coffee"></script>
 
-<script type="text/coffeescript">
-hello ->
-  return 'hello'
-
-deadCode ->
-  console.log 'Run me!'
-</script>
 <script src="test/hello_tests.js"></script>
 </head>
 <body>

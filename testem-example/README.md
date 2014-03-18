@@ -18,3 +18,7 @@ Then, just run testem
     testem
 
 When you are done with the tests, and quit testem, you should see HTML reports in `coverage/lcov-report/index.html`
+
+Alternatively, a single-line option:
+
+    testem ci; open coverage/lcov-report/index.html 
