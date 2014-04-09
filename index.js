@@ -40,6 +40,12 @@ module.exports = {
      */
     Instrumenter: require('./lib/instrumenter'),
     /**
+     * the CoffeeInstrumenter class.
+     * @property {CoffeeInstrumenter} CoffeeInstrumenter
+     * @static
+     */
+    CoffeeInstrumenter: require('./lib/coffee-instrumenter'),
+    /**
      * the Store class.
      * @property {Store} Store
      * @static
